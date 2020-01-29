@@ -196,3 +196,6 @@ end
 if (nargin < 1); colormap(bone);hold on; plot(cent(1:2:end),cent(2:2:end),'rs');hold off; end
 % return binary mask of centroid positions if asked for
 if nargout>1 ;  varargout{1}=cent_map; end
+
+
+% test
